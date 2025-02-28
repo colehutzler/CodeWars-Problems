@@ -9,7 +9,7 @@ Examples (Input ==> Output):
 Solution:
 def string_to_array(s):
     return s.split(' ')
---------------------------
+------------------------
 
 Problem:
 Create a function which answers the question "Are you playing banjo?".
@@ -30,3 +30,13 @@ def are_you_playing_banjo(name):
     else: 
         return name + " does not play banjo"
 --------------------------------------------
+Problem:
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+Solution:
+def even_or_odd(number):
+  if number % 2 != 0:
+    return "Odd"
+  else:
+    return "Even"
+------------------
