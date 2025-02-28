@@ -40,3 +40,10 @@ def even_or_odd(number):
   else:
     return "Even"
 ------------------
+Problem:
+We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+Solution:
+def string_to_number(s):
+    return int(s)
+------------------
