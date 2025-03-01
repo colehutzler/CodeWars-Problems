@@ -1,4 +1,4 @@
-Problem:
+PROBLEM:
 Write a function to split a string and convert it into an array of words.
 
 Examples (Input ==> Output):
@@ -6,12 +6,12 @@ Examples (Input ==> Output):
 
 "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
-Solution:
+SOLUTION:
 def string_to_array(s):
     return s.split(' ')
 ------------------------
 
-Problem:
+PROBLEM:
 Create a function which answers the question "Are you playing banjo?".
 If your name starts with the letter "R" or lower case "r", you are playing banjo!
 
@@ -21,7 +21,7 @@ name + " plays banjo"
 name + " does not play banjo"
 Names given are always valid strings.
 
-Solution:
+SOLUTION:
 def are_you_playing_banjo(name):
     if name[0] == "R":
         return name + " plays banjo"
@@ -30,24 +30,24 @@ def are_you_playing_banjo(name):
     else: 
         return name + " does not play banjo"
 --------------------------------------------
-Problem:
+PROBLEM:
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-Solution:
+SOLUTION:
 def even_or_odd(number):
   if number % 2 != 0:
     return "Odd"
   else:
     return "Even"
 -------------------------
-Problem:
+PROBLEM:
 We need a function that can transform a string into a number. What ways of achieving this do you know?
 
-Solution:
+SOLUTION:
 def string_to_number(s):
     return int(s)
 ------------------------
-Problem: 
+PROBLEM: 
 Clock shows h hours, m minutes and s seconds after midnight.
 
 Your task is to write a function which returns the time since midnight in milliseconds.
@@ -64,7 +64,7 @@ Input constraints:
 0 <= m <= 59
 0 <= s <= 59
 
-Solution:
+SOLUTION:
 def past(h, m, s):
     return h * 3600000 + m * 60000 + s * 1000
 ----------------------------------------------
